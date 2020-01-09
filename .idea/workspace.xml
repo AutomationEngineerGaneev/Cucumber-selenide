@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="518f7ca1-5236-4d4f-8132-8725cfa4f8c8" name="Default Changelist" comment="" />
+    <list default="true" id="518f7ca1-5236-4d4f-8132-8725cfa4f8c8" name="Default Changelist" comment="Selenide &amp; Cucumber(ru).">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cucumber/CucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumberStep/google-image-search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cucumberStep/google-image-search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cucumberStep/google-text-search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cucumberStep/google-text-search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/selenide-cucumber.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberStep/GoogleImageSearchStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberStep/GoogleSearchStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberStep/google-image-search.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumberStep/google-text-search.feature" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +41,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cucumberStep" />
+    </key>
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: google-image-search (1)">
     <configuration name="Feature: google-image-search (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -87,6 +102,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.CucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cucumber" />
       <extension name="coverage">
@@ -105,6 +135,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Feature: google-image-search (1)" />
+        <item itemvalue="JUnit.CucumberTest" />
         <item itemvalue="Cucumber java.Feature: google-image-search" />
         <item itemvalue="Cucumber java.Feature: google-text-search" />
         <item itemvalue="JUnit.GoogleTest" />
@@ -134,7 +165,19 @@
       <option name="presentableId" value="Default" />
       <updated>1577108226657</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenide &amp; Cucumber(ru).">
+      <created>1577269682317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577269682317</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenide &amp; Cucumber(ru)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenide &amp; Cucumber(ru)." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Inspections" timestamp="1577110381084">
@@ -149,38 +192,47 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577110356393" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1577266141450">
-      <screen x="0" y="23" width="1680" height="962" />
+    <state x="406" y="127" key="CommitChangelistDialog2" timestamp="1578035282839">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577266034676" />
+    <state x="406" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1578035282839" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1577368411688">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577368411688" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1577178308950" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1577266141450" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1577266141449">
-      <screen x="0" y="23" width="1680" height="962" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1577368411687">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577266034675" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577368411687" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1577178308948" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1577266141449" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1577266141448">
-      <screen x="0" y="23" width="1680" height="962" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1577368411686">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577266034674" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577368411686" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1577178308947" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1577266141448" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1577266141449">
-      <screen x="0" y="23" width="1680" height="962" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1577368411688">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577266034675" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577368411688" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1577178308949" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1577266141449" />
-    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1577112841790">
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1577367162613">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577112841790" />
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1577196137382">
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577367162613" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577269721408">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577196137382" />
+    <state x="440" y="253" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1577269721408" />
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1578574438034">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578574438034" />
+    <state x="519" y="350" key="com.intellij.ide.util.TipDialog/0.23.1680.963@0.23.1680.963" timestamp="1577985117308" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1577111000598">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
